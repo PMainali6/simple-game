@@ -1,0 +1,27 @@
+#container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.parent {
+	width: 360px;
+	height: 360px;
+	background-color: black;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin: 0 50px 20px 0;
+}
+
+.child {
+	width: 100px;
+	height: 100px;
+	background-color: grey;
+	margin: 10px;
+}
+
+.blink {
+	background-color: red;
+}
